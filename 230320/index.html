@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kolonsport - 적응형웹</title>
+
+  <!-- 초기화 -->
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <!-- 기본서식 -->
+  <link rel="stylesheet" href="./css/base.css" type="text/css">
+  <!-- 공통서식 -->
+  <link rel="stylesheet" href="./css/common.css" type="text/css">
+  <!-- 메인css -->
+  <link rel="stylesheet" href="./css/main.css" type="text/css">
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <!-- 제이쿼리 라이브러리  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+  <!-- 슬라이드메뉴 영역 -->
+  <article class="side_menu">
+    <i class="fas fa-close"></i>
+    <div class="menu_list">
+      <ul class="gnb">
+      <h6>Categories</h6>
+        <li>
+          <a href="#none" title="MEN">MEN <i class="fas fa-angle-down"></i></a>
+          <ul class="lnb">
+            <li><a href="#none" title="전체">전체</a></li>
+            <li><a href="#none" title="아우터">아우터</a></li>
+            <li><a href="#none" title="상의">상의</a></li>
+            <li><a href="#none" title="하의">하의</a></li>
+            <li><a href="#none" title="홈웨어">홈웨어</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#none" title="WOMEN">WOMEN <i class="fas fa-angle-down"></i></a>
+          <ul class="lnb">
+            <li><a href="#none" title="전체">전체</a></li>
+            <li><a href="#none" title="아우터">아우터</a></li>
+            <li><a href="#none" title="상의">상의</a></li>
+            <li><a href="#none" title="하의">하의</a></li>
+            <li><a href="#none" title="홈웨어">홈웨어</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#none" title="SHOES">SHOES <i class="fas fa-angle-down"></i></a>
+          <ul class="lnb">
+            <li><a href="#none" title="전체">전체</a></li>
+            <li><a href="#none" title="하이킹">하이킹</a></li>
+            <li><a href="#none" title="트레킹화">트레킹화</a></li>
+            <li><a href="#none" title="워킹화">워킹화</a></li>
+            <li><a href="#none" title="스니커즈">스니커즈</a></li>
+            <li><a href="#none" title="샌들/슬라이드">샌들/슬라이드</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#none" title="BAG">BAG <i class="fas fa-angle-down"></i></a>
+          <ul class="lnb">
+            <li><a href="#none" title="전체">전체</a></li>
+            <li><a href="#none" title="트레킹백">트레킹백</a></li>
+            <li><a href="#none" title="라이프스타일">라이프스타일</a></li>
+            <li><a href="#none" title="레저백">레저백</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#none" title="ACC">ACC <i class="fas fa-angle-down"></i></a>
+          <ul class="lnb">
+            <li><a href="#none" title="전체">전체</a></li>
+            <li><a href="#none" title="모자">모자</a></li>
+            <li><a href="#none" title="장갑">장갑</a></li>
+            <li><a href="#none" title="스틱">스틱</a></li>
+            <li><a href="#none" title="양말">양말</a></li>
+            <li><a href="#none" title="계절용품/기타소품">계절용품/기타소품</a></li>
+            <li><a href="#none" title="솟솟GOODS">솟솟GOODS</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#none" title="CAMPING">CAMPING <i class="fas fa-angle-down"></i></a>
+          <ul class="lnb">
+            <li><a href="#none" title="전체">전체</a></li>
+            <li><a href="#none" title="텐트/타프">텐트/타프</a></li>
+            <li><a href="#none" title="캠핑용품">캠핑용품</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#none" title="WEATHER MONSTER">WEATHER MONSTER <i class="fas fa-angle-down"></i></a>
+          <ul class="lnb">
+            <li><a href="#none" title="전체">전체</a></li>
+            <li><a href="#none" title="FISHING EXPERT">FISHING EXPERT</a></li>
+            <li><a href="#none" title="FISHING SPORTS WEAR">FISHING SPORTS WEAR</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </article>
+  <div>
+    <!-- 헤더영역 -->
+    <header>
+      <article class="header_box header_top">
+        <div class="recent_item">
+          <a href="#none"><img src="./images/cart.svg" alt="최근본 상품"> recent viewed</a>
+        </div>
+
+        <div class="main_logo">
+          <h1><a href="./index.html" title="메이페이지 바로가기"><img src="./images/logo.png" alt="메인로고"></a></h1>
+        </div>
+        
+        <div class="shop_cart">
+          <a href="#none"><img src="./images/cart.svg" alt="장바구니"> your bag</a>
+        </div>
+
+        <div class="menu_icon">
+          <i class="fas fa-bars"></i>
+        </div>
+      </article>
+
+      <article class="header_box header_bottom">
+        <div>
+          <a href="#none" title="페이스북 바로가기"><img src="./images/facebook.png" alt="페이스북바로가기"></a>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="#none" title="KOLON SPORT">KOLON SPORT</a></li>
+            <li><a href="#none" title="SHOP">SHOP</a></li>
+            <li><a href="#none" title="ISSUE">ISSUE</a></li>
+            <li><a href="#none" title="PROGRAM">PROGRAM</a></li>
+            <li><a href="#none" title="SPECIAL">SPECIAL</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <p>Tel.1588-7667 (유료)</p>
+        </div>
+      </article>
+    </header>
+
+    <!-- 메인영역 -->
+    <main>
+      <section class="main_banner">
+        <article class="t_cont">
+          <ul>
+            <li>
+              <a href="#none" title="SOTSOT REBIRTH IN JEJU">
+                <h4>SOTSOT REBIRTH IN JEJU</h4>
+                <p>WASTE LESS, WEAR LONGER.</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#none" title="SOTSOT REBIRTH IN JEJU">
+                <h4>WEATHER MONSTER X KAKO TALK</h4>
+                <p>웨더몬스터 상품 구매전, 카카오톡 채널 추가하고 15% OFF 쿠폰 받기</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#none" title="SOTSOT REBIRTH IN JEJU">
+                <h4>베스트 상품형 EVENT</h4>
+                <p>매달 10분 선정하여 10,000포인트를 드립니다!</p>
+              </a>
+            </li>
+          </ul>
+
+        </article>
+        <article class="slide_wrap">
+          <ul class="slide">
+            <li>
+              <a href="#none" title="메인배너01">
+                <div>
+                  <h2>SPECIAL GIFT<br>GORE-TEX<br>ITEM</h2>
+                  <p>환경에 따라 변화하는 아웃도어 환경,</p>
+                  <p>최고의 퍼포먼스를 이끌어 낼 수 있도록</p>
+                  <span>바로가기</span>
+                </div>
+                <img src="./images/main_banner01.jpg" alt="메인배너01">
+              </a>
+            </li>
+            
+            <li>
+              <a href="#none" title="메인배너02">
+                <div>
+                  <h2>지금 필요한<br>하나의 아우터<br>#웨더자켓</h2>
+                  <p>방수, 방풍, 발수까지-</p>
+                  <p>봄의 모든 날씨로부터 나를 지켜줄 #웨더자켓</p>
+                  <span>바로가기</span>
+                </div>
+                <img src="./images/main_banner02.jpg" alt="메인배너02">
+              </a>
+            </li>
+
+            <li>
+              <a href="#none" title="메인배너03">
+                <div>
+                  <h2>WE GO<br>OUTDOORS!</h2>
+                  <p>코오롱스포츠가 제안하는</p>
+                  <p>2030 고프코어 무드 트레킹 룩</p>
+                  <span>바로가기</span>
+                </div>
+                <img src="./images/main_banner03.jpg" alt="메인배너03">
+              </a>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- 신상, 캠프영역 -->
+      <section class="new_item">
+        <article class="new_wrap">
+            <div class="new_con">
+            <a href="#none" title="세일상품 보러가기">
+              <div class="new_txt">
+                <h6>22 f/w</h6>
+                <p>SALE 30%</p>
+                <span>shop now</span>
+              </div>
+              <img src="./images/banner_sale.jpg" alt="세일배너">
+            </a>
+          </div>
+
+          <div class="new_con">
+            <a href="#none" title="패밀리 텐트 보러가기">
+              <div class="new_txt">
+                <h6>'SUPER PALACE'</h6>
+                <p>다시 돌아온,<br>패밀리 텐트</p>
+                <span>shop now</span>
+              </div>
+              <img src="./images/banner_camp.jpg" alt="캠핑배너">
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <!-- 신상품 목록영역 -->
+      <section class="new_arrivals">
+        <h2>NEW ARRIVALS</h2>
+        <div>
+          <button>ALL</button>
+          <button>MEN</button>
+          <button>WOMEN</button>
+          <button>BAG</button>
+          <button>CAMPING</button>
+          <button>SHOES</button>
+        </div>
+
+        <article>
+          <ul>
+            <li>
+              <a href="#none" title="신상품01">
+                <div>
+                  <img src="./images/list01.jpg" alt="남성아우터">
+                </div>
+                <p>KOLON SPORT</p>
+                <p>남성 블랙앤화이트 3L 방수자켓</p>
+                <p>ABOUT TO CART</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#none" title="신상품02">
+                <div>
+                  <img src="./images/list02.jpg" alt="남성아우터">
+                </div>
+                <p>KOLON SPORT</p>
+                <p>남녀공용 사계절 이누크 아노락</p>
+                <p>ABOUT TO CART</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#none" title="신상품03">
+                <div>
+                  <img src="./images/list03.jpg" alt="남성아우터">
+                </div>
+                <p>KOLON SPORT</p>
+                <p>여성 시그니처 자케 #웨더코트 숏</p>
+                <p>ABOUT TO CART</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#none" title="신상품04">
+                <div>
+                  <img src="./images/list04.jpg" alt="남성아우터">
+                </div>
+                <p>KOLON SPORT</p>
+                <p>여성 뉴실루엣 자켓</p>
+                <p>ABOUT TO CART</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#none" title="신상품05">
+                <div>
+                  <img src="./images/list05.jpg" alt="남성아우터">
+                </div>
+                <p>KOLON SPORT</p>
+                <p>남녀공용 에어롤 23L</p>
+                <p>ABOUT TO CART</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#none" title="신상품06">
+                <div>
+                  <img src="./images/list06.jpg" alt="남성아우터">
+                </div>
+                <p>KOLON SPORT</p>
+                <p>남녀공용 50주년 기념 미드컷 등 산화 $보이져</p>
+                <p>ABOUT TO CART</p>
+              </a>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- 이벤트영역 -->
+      <section class="event">
+        <article class="evet_top">
+          <img src="./images/banner_event.jpg" alt="이벤트배너01">
+          <div>
+            <p>someshere</p>
+            <p>김태리와 함께하는 #썸웨어</p>
+            <a href="https://www.youtube.com/watch?v=OrysiwsLh0s" title="썸웨어 영상보러가기">영상보러가기</a>
+          </div>
+        </article>
+
+        <article class="event_wrap">
+          <h3>event</h3>
+          <ul class="evnt_slide">
+            <li>
+              <p>웨더몬스터 카카오톡채널 스페셜 쿠폰 (~04/30)</p>
+              <div class="con_wrap">
+                <div class="img_box">
+                  <img src="./images/banner_camp.jpg" alt="이벤트배너02">
+                </div>
+                <div class="txt_box">
+                  <p>WEATHER MONSTER X KAKAO TALK</p>
+                  <p>웨더몬스터의 소식을 빠르게 확이할 수 있는 방법!</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <p>코오롱스포츠 MEMBERSHIP 혜택</p>
+              <div class="con_wrap">
+                <div class="img_box">
+                  <img src="./images/banner_camp.jpg" alt="이벤트배너02">
+                </div>
+                <div class="txt_box">
+                  <p>WELCOME EVENT</p>
+                  <p>신규가입시 자동 발급되는 멤버십 회원가입 10% 쿠폰!</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <p>솟솟리버스에서 만나는 새로운 경험</p>
+              <div class="con_wrap">
+                <div class="img_box">
+                  <img src="./images/banner_camp.jpg" alt="이벤트배너02">
+                </div>
+                <div class="txt_box">
+                  <p>AUGMENTED REALITY (AR)</p>
+                  <p>솟솟네컷</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <!-- 푸터영역 -->
+    <footer>
+      <div class="footer_wrap">
+        <div class="footer_left">
+          <a href="./index.html" title="메인페이지 바로가기"></a><img src="./images/footer_logo.svg" alt="메인로고">
+          <address>ⓒ KOLON SPORT all rights reserved</address>
+        </div>
+
+        <div class="footer_center">
+            <nav>
+              <ul>
+                <li><a href="#none" title="매장안내">매장안내</a></li>
+                <li><a href="#none" title="대리점 개설문의">대리점 개설문의</a></li>
+                <li><a href="#none" title="위탁판매사업자모집">위탁판매사업자모집</a></li>
+                <li><a href="#none" title="이용약관">이용약관</a></li>
+                <li><a href="#none" title="개인정보처리방침"><strong>개인정보처리방침</strong></a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="footer_right">
+            <p>뉴스레터</p>
+            <input type="text" placeholder="your email here" id="input01">
+            <input type="submit" value="sub" id="input02">
+          </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

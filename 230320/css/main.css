@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* 메인배너영역 서식 */
+.main_banner{
+  height: 100vh;
+}
+.main_banner .t_cont{
+  width: 100%;
+  margin: 0px auto;
+}
+.main_banner .t_cont > ul{
+  display: flex;
+  justify-content: space-between;
+}
+.main_banner .t_cont > ul > li{
+  width: 100%;
+  text-align: center;
+  padding: 40px 15px;
+}
+.main_banner .t_cont > ul > li > a{
+  color: #fff !important;
+}
+.main_banner .t_cont > ul > li > a  h4{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.main_banner .t_cont > ul > li > a  p{
+  font-size: 16px;
+}
+.main_banner .t_cont > ul > li:first-child{
+  background-color: #164346;
+}
+.main_banner .t_cont > ul > li:nth-child(2){
+  background-color: #74828B;
+}
+.main_banner .t_cont > ul > li:last-child{
+  background-color: #E6ECFA;
+}
+.main_banner .t_cont > ul > li:last-child > a{
+  color: #333 !important;
+}
+
+.main_banner .slide_wrap{
+  overflow: hidden;
+}
+.main_banner .slide_wrap .slide{
+  display: flex;
+  width: 300%;
+  height: 811.5px;
+}
+.main_banner .slide_wrap .slide > li {
+  width: 100%;
+  position: relative;
+}
+.main_banner .slide_wrap .slide > li img{
+  width: 100%;
+  height: 100%;
+}
+.main_banner .slide_wrap .slide > li > a div{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(0%, -50%);
+  color: #fff;
+}
+.main_banner .slide_wrap .slide > li:nth-of-type(2) > a div{
+  top: 50% !important;
+  right: 10% !important;
+  transform: translate(0%, -50%);
+  text-align: right;
+}
+.main_banner .slide_wrap .slide > li > a div > h2{
+  font-weight: 100;
+  font-size: 80px;
+  padding-bottom: 40px;
+}
+.main_banner .slide_wrap .slide > li > a div > p{
+  font-size: 30px;
+  line-height: 40px;
+}
+.main_banner .slide_wrap .slide > li > a div > p:last-of-type{
+  padding-bottom: 50px;
+}
+.main_banner .slide_wrap .slide > li > a div > span{
+  padding: 15px 13px;
+  border: 1px solid #fff !important;
+  transform: translateY(-20px);
+}
+
+/* 신상품 캠프영역 서식 */
+.new_item{
+
+}
+.new_item > .new_wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.new_item > .new_wrap > .new_con{
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.new_item > .new_wrap > .new_con > a img{
+  width: 100%;
+}
+.new_item > .new_wrap > .new_con > a .new_txt{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(0%, -50%);
+  color: #fff;
+}
+.new_item > .new_wrap > .new_con > a .new_txt h6{
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.new_item > .new_wrap > .new_con > a .new_txt p{
+  font-size: 70px;
+  padding-bottom: 50px;
+}
+.new_item > .new_wrap > .new_con > a .new_txt span{
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: 1px solid #fff;
+}
+
+/* 신상품목록 서식 */
+.new_arrivals{
+  width: 1200px;
+  padding-top: 100px;
+  text-align: center;
+  margin: 0px auto;
+}
+.new_arrivals > h2{
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+.new_arrivals > div{
+  padding-bottom: 100px;
+  text-align: center;
+}
+.new_arrivals > div > button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.new_arrivals > article > ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.new_arrivals > article > ul > li{
+  padding: 0px 15px 0px 15px;
+  margin-bottom: 100px;
+}
+.new_arrivals > article > ul > li > a >  p{
+  text-align: left;
+}
+.new_arrivals > article > ul > li > a >  p:first-of-type{
+  font-size: 24px;
+  padding: 10px 0px;
+}
+.new_arrivals > article > ul > li > a >  p:nth-of-type(2){
+  font-size: 14px;
+}
+.new_arrivals > article > ul > li > a >  p:last-of-type{
+  font-size: 12px;
+  padding-top: 30px;
+}
+
+/* 이벤트영역 서식 */
+.event{
+  width: 100%;
+  margin: 0px auto;
+}
+.event > .evet_top{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.event > .evet_top > img{
+  width: 100%;
+  height: auto;
+}
+.event > .evet_top > div{
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(5%, -50%);
+  color: #fff;
+  padding: 100px 150px;
+  background-color: rgba(0,0,0,.6);
+}
+.event > .evet_top > div > p:first-of-type{
+  font-size: 20px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.event > .evet_top > div > p:last-of-type{
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.event > .evet_top > div > a{
+  color: #fff !important;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 1px solid #fff;
+}
+/* 이벤트 슬라이드 서식 */
+.event > .event_wrap{
+  padding-top: 100px;
+  width: 1200px;
+  overflow: hidden;
+  margin: 0px auto;
+  padding-bottom: 100px;
+}
+.event > .event_wrap > h3{
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.event > .event_wrap > .evnt_slide{
+  display: flex;
+  width: 300%;
+  text-align: center;
+}
+.event > .event_wrap > .evnt_slide > li{
+  width: 100%;
+  height: 400px;
+  background: #e2e2e2;
+}
+.event > .event_wrap > .evnt_slide > li > p{
+  font-size: 30px;
+  padding: 50px 0px;
+}
+.event > .event_wrap > .evnt_slide > li > .con_wrap{
+  display: flex;
+  justify-content: center;
+}
+.event > .event_wrap > .evnt_slide > li > .con_wrap > .img_box{
+  width: 20%;
+  text-align: center;
+}
+.event > .event_wrap > .evnt_slide > li > .con_wrap > .img_box > img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.event > .event_wrap > .evnt_slide > li > .con_wrap > .txt_box{
+  width: 50%;
+  text-align: start;
+  padding: 70px 0px 0px 20px;
+}
+.event > .event_wrap > .evnt_slide > li > .con_wrap > .txt_box > p:first-child{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}

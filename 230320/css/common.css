@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* 헤더영역서식 */
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+.header_box{
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:50px 0px;
+}
+.header_box .menu > ul{
+  margin: 0px auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.header_box .menu > ul > li{
+  list-style: outside none none;
+}
+
+.header_top{
+  height: 40px;
+}
+.header_top .recent_item{
+  width: 20%;
+}
+.header_top .recent_item a{
+  line-height: 20px;
+  align-items: center;
+}
+.header_top .recent_item a img{
+transform: translateY(7px);
+}
+.header_top .main_logo img{
+  width: 40%;
+}
+.header_top .shop_cart a img{
+  transform: translateY(7px);
+}
+.header_bottom{
+  height: 30px;
+  padding-top: 0px;
+}
+
+/* 사이드메뉴 서식 */
+.side_menu{
+  width: 300px;
+  height: 100vh;
+  background: #fff;
+  position: relative;
+  position: absolute;
+  z-index: 10;
+  display: none;
+}
+.side_menu .fa-close{
+  position: absolute;
+  right: 0px;
+  font-size: 20px;
+  top: 0px;
+  padding: 15px 18px;
+  background: #ccc;
+  cursor: pointer;
+  color: #fff;
+}
+.side_menu .fa-angle-down{
+  position: absolute;
+  right: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 45px;
+}
+.side_menu .menu_list h6 {
+  font-size: 20px;
+  padding: 60px 30px 30px 30px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #ebebeb;
+}
+.side_menu .menu_list .gnb li{
+  border-bottom: 1px solid #ebebeb;
+  line-height: 45px;
+  font-size: 13px;
+}
+.side_menu .menu_list .gnb li a{
+  padding-left: 30px;
+}
+.side_menu .menu_list .gnb .lnb{
+  display: none;
+}
+
+/* 푸터영역서식 */
+footer{
+  width: 1200px;
+  height: 150px;
+  margin: 0px auto;
+}
+.footer_wrap{
+  display: flex;
+}
+.footer_left, .footer_center, .footer_right{
+  width: 100%;
+}
+.footer_left address{
+  font-size: 14px;
+}
+.footer_center nav li{
+  font-size: 14px;
+  line-height: 22px;
+}
+.footer_right{
+  text-align: end;
+}
+.footer_right > p{
+  padding-right: 40px;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.footer_right > #input01{
+  width: 300px;
+  height: 40px;
+  text-indent: 10px;
+}
+.footer_right > #input02{
+  background: none;
+  width: 40px;
+  height: 45px;
+}
+
+
+

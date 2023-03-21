@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ic_play</title>
+    <desc>Created with Sketch.</desc>
+    <g id="디자인교정" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="비디오아이콘-조절" transform="translate(-186.000000, -219.000000)">
+            <g id="play-copy-2" transform="translate(186.000000, 219.000000)">
+                <g id="ic_Prod_Play">
+                    <circle id="Oval" fill="#FFFFFF" opacity="0.5" cx="9.5" cy="9.5" r="9.5"></circle>
+                    <path d="M9.97674518,6.64292618 C10.1079905,6.64042588 10.2126397,6.70584117 10.2906926,6.83917206 L13.9076779,11.8361139 C14.0062394,11.9746979 14.0258838,12.1027974 13.9666112,12.2204125 C13.9310354,12.2943803 13.828022,12.339618 13.657571,12.3561258 L6.37630826,12.3561258 C6.24980976,12.3652634 6.1475836,12.3128291 6.0696298,12.1988228 C5.98537084,12.0331188 5.97758299,11.8822244 6.04626626,11.7461397 L9.58844089,6.85255036 C9.71606507,6.71530121 9.84549983,6.64542648 9.97674518,6.64292618 Z" id="play-copy" fill-opacity="0.25" fill="#1F1F1F" transform="translate(10.000000, 9.500000) rotate(90.000000) translate(-10.000000, -9.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
