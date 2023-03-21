@@ -10,7 +10,7 @@ a{
   margin: 0px auto;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding:50px 0px;
 }
 .header_box .menu > ul{
@@ -27,14 +27,18 @@ a{
   height: 40px;
 }
 .header_top .recent_item{
-  width: 20%;
+  /* width: 20%; */
 }
 .header_top .recent_item a{
   line-height: 20px;
   align-items: center;
+  display: inline-block;
 }
 .header_top .recent_item a img{
 transform: translateY(7px);
+}
+.header_top .main_logo{
+  text-align: center;
 }
 .header_top .main_logo img{
   width: 40%;
@@ -46,6 +50,14 @@ transform: translateY(7px);
   height: 30px;
   padding-top: 0px;
 }
+.menu_icon{
+  padding: 18px 20px;
+  border-radius: 50%;
+  background-color: #1F1F1F;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
 
 /* 사이드메뉴 서식 */
 .side_menu{
@@ -55,7 +67,7 @@ transform: translateY(7px);
   position: relative;
   position: absolute;
   z-index: 10;
-  display: none;
+  /* display: none; */
 }
 .side_menu .fa-close{
   position: absolute;
@@ -96,7 +108,7 @@ transform: translateY(7px);
 /* 푸터영역서식 */
 footer{
   width: 1200px;
-  height: 150px;
+  height: 200px;
   margin: 0px auto;
 }
 .footer_wrap{
@@ -112,23 +124,33 @@ footer{
   font-size: 14px;
   line-height: 22px;
 }
+.footer_center nav li > a{
+  color: #1F1F1F !important;
+}
 .footer_right{
   text-align: end;
 }
 .footer_right > p{
-  padding-right: 40px;
+  color: #1F1F1F;
+  font-weight: bold;
   font-size: 25px;
   padding-bottom: 20px;
 }
 .footer_right > #input01{
-  width: 300px;
-  height: 40px;
+  width: 280px;
+  height: 40.5px;
   text-indent: 10px;
+  border: 1px solid #1F1F1F;
+  transform: translateX(6px);
+  outline: none;
 }
 .footer_right > #input02{
-  background: none;
-  width: 40px;
+  background: #1F1F1F;
+  color: #fff;
+  width: 60px;
   height: 45px;
+  border: 1px solid #1F1F1F;
+  cursor: pointer;
 }
 
 
