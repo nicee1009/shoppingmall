@@ -18,16 +18,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   <!-- 제이쿼리 라이브러리  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- 슬라이드 스와이퍼 -->
+  <script src="./js/swiper.js"></script>
+  <script src="./script/main.js"></script>
 </head>
 <body>
-  <!-- 슬라이드메뉴 영역 -->
+  <!-- 사이드메뉴 영역 -->
   <article class="side_menu">
-    <i class="fas fa-close"></i>
+    <i class="fas fa-close" id="c_btn"></i>
     <div class="menu_list">
       <ul class="gnb">
       <h6>Categories</h6>
         <li>
-          <a href="#none" title="MEN">MEN <i class="fas fa-angle-down"></i></a>
+          <a href="#none" title="MEN">MEN <i class="fas fa-angle-down" id="m_btn"></i></a>
           <ul class="lnb">
             <li><a href="#none" title="전체">전체</a></li>
             <li><a href="#none" title="아우터">아우터</a></li>
@@ -38,7 +41,7 @@
         </li>
 
         <li>
-          <a href="#none" title="WOMEN">WOMEN <i class="fas fa-angle-down"></i></a>
+          <a href="#none" title="WOMEN">WOMEN <i class="fas fa-angle-down" id="m_btn"></i></a>
           <ul class="lnb">
             <li><a href="#none" title="전체">전체</a></li>
             <li><a href="#none" title="아우터">아우터</a></li>
@@ -49,7 +52,7 @@
         </li>
 
         <li>
-          <a href="#none" title="SHOES">SHOES <i class="fas fa-angle-down"></i></a>
+          <a href="#none" title="SHOES">SHOES <i class="fas fa-angle-down" id="m_btn"></i></a>
           <ul class="lnb">
             <li><a href="#none" title="전체">전체</a></li>
             <li><a href="#none" title="하이킹">하이킹</a></li>
@@ -61,7 +64,7 @@
         </li>
 
         <li>
-          <a href="#none" title="BAG">BAG <i class="fas fa-angle-down"></i></a>
+          <a href="#none" title="BAG">BAG <i class="fas fa-angle-down" id="m_btn"></i></a>
           <ul class="lnb">
             <li><a href="#none" title="전체">전체</a></li>
             <li><a href="#none" title="트레킹백">트레킹백</a></li>
@@ -71,7 +74,7 @@
         </li>
 
         <li>
-          <a href="#none" title="ACC">ACC <i class="fas fa-angle-down"></i></a>
+          <a href="#none" title="ACC">ACC <i class="fas fa-angle-down" id="m_btn"></i></a>
           <ul class="lnb">
             <li><a href="#none" title="전체">전체</a></li>
             <li><a href="#none" title="모자">모자</a></li>
@@ -84,7 +87,7 @@
         </li>
 
         <li>
-          <a href="#none" title="CAMPING">CAMPING <i class="fas fa-angle-down"></i></a>
+          <a href="#none" title="CAMPING">CAMPING <i class="fas fa-angle-down" id="m_btn"></i></a>
           <ul class="lnb">
             <li><a href="#none" title="전체">전체</a></li>
             <li><a href="#none" title="텐트/타프">텐트/타프</a></li>
@@ -93,7 +96,7 @@
         </li>
 
         <li>
-          <a href="#none" title="WEATHER MONSTER">WEATHER MONSTER <i class="fas fa-angle-down"></i></a>
+          <a href="#none" title="WEATHER MONSTER">WEATHER MONSTER <i class="fas fa-angle-down" id="m_btn"></i></a>
           <ul class="lnb">
             <li><a href="#none" title="전체">전체</a></li>
             <li><a href="#none" title="FISHING EXPERT">FISHING EXPERT</a></li>
@@ -112,7 +115,7 @@
         </div>
 
         <div class="main_logo">
-          <h1><a href="./index.html" title="메이페이지 바로가기"><img src="./images/logo.png" alt="메인로고"></a></h1>
+          <h1><a href="./index.html" title="메인페이지 바로가기"><img src="./images/logo.png" alt="메인로고"></a></h1>
         </div>
         
         <div class="shop_cart">
@@ -121,13 +124,13 @@
           <a href="#none" title="회원가입페이지">회원가입</a>
         </div>
 
-        <div class="menu_icon">
+        <div class="menu_icon" id="toggle">
           <i class="fas fa-bars"></i>
         </div>
       </article>
 
       <article class="header_box header_bottom">
-        <div>
+        <div id="wrap">
           <a href="#none" title="페이스북 바로가기"><img src="./images/facebook.png" alt="페이스북바로가기"></a>
         </div>
 

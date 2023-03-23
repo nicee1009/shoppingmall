@@ -85,6 +85,11 @@
   border: 1px solid #fff !important;
   transform: translateY(-20px);
 }
+.main_banner .slide_wrap .slide > li > a div > span:hover{
+  color: #fff;
+  background: #1F1F1F;
+  border: 1px solid #1F1F1F !important;
+}
 
 /* 신상품 캠프영역 서식 */
 .new_item{
@@ -123,6 +128,11 @@
   margin-bottom: 20px;
   padding: 10px 15px;
   border: 1px solid #fff;
+}
+.new_item > .new_wrap > .new_con > a .new_txt span:hover{
+  color: #fff;
+  background: #1F1F1F;
+  border: 1px solid #1F1F1F !important;
 }
 
 /* 신상품목록 서식 */
@@ -208,6 +218,11 @@
   font-size: 20px;
   padding: 10px 15px;
   border: 1px solid #fff;
+}
+.event > .evet_top > div > a:hover{
+  color: #fff;
+  background: #1F1F1F;
+  border: 1px solid #1F1F1F !important;
 }
 /* 이벤트 슬라이드 서식 */
 .event > .event_wrap{
